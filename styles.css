@@ -1,0 +1,100 @@
+.body-dichvu {
+    background: url(./assets/background.jpg) top center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    font-family: "Georama";
+    margin: unset;
+    backdrop-filter: blur(2px);
+}
+
+.menu-dichvu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2rem 2rem;
+}
+.menu-dichvu a {
+    color: white;
+}
+
+.body-edu {
+    background: url(./assets/bg-edu.png) top center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    font-family: "Georama";
+    margin: unset;
+    backdrop-filter: blur(2px);
+}
+
+.menu-edu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2rem 2rem;
+}
+.menu-edu a {
+    color: #085ca8;
+}
+
+.body-medical {
+    background: url(./assets/bg-medical.jpg) top center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    font-family: "Georama";
+    margin: unset;
+    backdrop-filter: blur(2px);
+}
+
+.menu-medical {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2rem 2rem;
+}
+.menu-medical a {
+    color: #085ca8;
+}
+.body-chinhquyen {
+    background: url(./assets/bg-chinhquyen.jpg) top center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    font-family: "Georama";
+    margin: unset;
+    backdrop-filter: blur(2px);
+}
+
+.menu-chinhquyen {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2rem 2rem;
+}
+.menu-chinhquyen a {
+    color: #085ca8;
+}
+
+.img-hover:hover {
+
+}
+.margin-menu {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.hinhanh{
+    display: flex;
+    flex-wrap: wrap; /* Cho phép ảnh xuống dòng */
+    justify-content: center; /* Căn giữa ảnh theo chiều ngang */
+    gap: 40px; /* Khoảng cách giữa các ảnh */
+  }
+  .hinhanh img {
+    height: 200px;
+  }
+  
